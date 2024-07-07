@@ -9,6 +9,7 @@ import Login from "./pages/login/login";
 import "./styles/global.scss";
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
+import Register from "./pages/register/Register";
 
 function App() {
   const LayOut = () => {
@@ -58,6 +59,10 @@ function App() {
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/register",
+      element: <Register />,
     },
   ]);
 
